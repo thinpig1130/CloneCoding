@@ -1,0 +1,56 @@
+body {
+  background-color: #1eac9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+}
+
+@keyframes doWave {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: scaleY(2);
+  }
+  40% {
+    transform: none;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.wavebox {
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar {
+  width: 13px;
+  height: 40px;
+  background-color: #fffeff;
+}
+
+.bar:nth-child(1) {
+  animation: 1.5s doWave infinite;
+}
+.bar:nth-child(2) {
+  animation: 1.5s doWave linear 0.1s infinite;
+}
+.bar:nth-child(3) {
+  animation: 1.5s doWave 0.2s infinite;
+}
+.bar:nth-child(4) {
+  animation: 1.5s doWave 0.3s infinite;
+}
+.bar:nth-child(5) {
+  animation: 1.5s doWave 0.4s infinite;
+}
