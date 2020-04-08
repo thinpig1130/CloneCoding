@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;700&display=swap');
+
+body{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+h3{
+    font-size: 12px;
+}
+
+.sign-box, .sign-box__inshadow1, .sign-box__inshadow2{
+    width :300px;
+    height :600px;
+    border-radius: 50px;
+}
+
+.sign-box{
+    box-shadow: 15px 15px 20px 5px #BEC4CF;     
+ }
+
+.sign-box__inshadow1 {
+    width :296px;
+    height :596px;
+    background-color: #F8F8F8;
+    border: 2px solid  #EEF1F2;
+    position: relative;
+    box-shadow: -10px -10px 10px 0px #E5E9EA inset; 
+}
+
+.sign-box__inshadow2 {
+    position: absolute;
+    box-shadow: 10px 10px 5px 0px #FFFFFF inset;
+ }
+
+ .sign-box__content{
+    width : 240px;
+    height: 500px;
+    padding : 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .sign-box__textbox {
+    padding: 10px;
+    border-radius: 10px; 
+    border: 1px solid #EEF1F2;
+    width: 100%;
+    margin: 15px 0px;
+    font-size: 12px;
+ }
+
+ .g-linkmsg {
+    font-size: 12px;
+    font-weight: 700;
+    color : #E2283E;
+ }
+
+ .g-msg{
+     font-size: 12px;
+     color : #AFAFAF;
+ }
+
+ .g-btn{
+     margin: 15px 0px;
+     padding : 0px;
+     height : 40px;
+     background-color: gray;
+     font-size : 10px ;
+     color: #F8F8F8;
+     border : 0px;
+     width : 110px;
+     border-radius: 50px;
+ }
+
+ .sign-box__longbtn{
+     width: 100%;
+     background-color: #E2283E;
+ }
+
+ .sign-box__btn:first-child{
+     background-color: #475A95;
+ }
+
+.sign-box__btn:last-child{
+    background-color: #5DA1F2;
+}
+
+.g-left{
+    width: 100%;
+}
+
+.g-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-box__check{
+    color : #E2283E;
+}
+
+.sign-box__comment{
+    margin: 15px 0px;
+}
+
+.sign-box__connect{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
