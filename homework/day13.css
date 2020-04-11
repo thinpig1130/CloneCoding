@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+  background-color: #2698f9;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.phone {
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(images/avatar01.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 385px;
+  height: 825px;
+}
+
+.phone__top {
+  width: 325px;
+  height: 785px;
+  padding: 20px 30px;
+}
+
+.status {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.header {
+  width: 100%;
+  margin: 35px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.header > i {
+  color: #7a7a78;
+}
+
+.header > span {
+  font-size: 18px;
+}
+
+.main {
+  margin-top: 130px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.intro__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.intro__name {
+  font-size: 25px;
+  color: #2799fa;
+  font-weight: 700;
+}
+
+.main___buttons {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main___buttons > input {
+  width: 140px;
+  height: 45px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main___buttons > input:hover {
+  color: #ffffff;
+  background-color: #2799fa;
+}
+
+.main__cnt-bar {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cnt-bar__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+
+.bottom-bar {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 3;
+  color: #7a7a78;
+  font-size: 20px;
+}
+
+.bottom-bar > i:hover {
+  color: #2799fa;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+}
+
+.buttom-bar__line {
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  bottom: 10px;
+  left: 132.5px;
+  background-color: #7a7a78;
+  z-index: 5;
+}
