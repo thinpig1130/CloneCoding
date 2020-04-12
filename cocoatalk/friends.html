@@ -9,6 +9,7 @@
         integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" 
         crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="status-bar">
@@ -39,10 +40,10 @@
             </span>
         </div>
     </header>
-    <mian class="friends">
+    <main class="friends">
         <header class="friends__header">
             <div class="friends__list">
-                <div class="friends__friend friend friend--lg">
+                <div class="friends__friend friend">
                     <div class="friend__column">
                         <img class="friend__avatar g-avatar" src="images/avatar02.jpeg"/>
                         <div class="friend__content">
@@ -61,7 +62,7 @@
             <h5 class="friends__title">Plus Friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img class="friend__avatar g-avatar" src="images/kichan.jpg"/>
+                    <img class="friend__avatar" src="images/kichan.jpg"/>
                     <div class="friend__content">
                         <span class="friend__name">
                             Plus Friend
@@ -73,8 +74,9 @@
         <ul class="friends__list">
             <h5 class="friends__title">Friends 14</h5>
             <li class="friends__friend friend">
+                <a href="chat.html">
                 <div class="friend__column">
-                    <img class="friend__avatar g-avatar" src="images/kichan.jpg"/>
+                    <img class="friend__avatar" src="images/kichan.jpg"/>
                     <div class="friend__content">
                         <span class="friend__name">
                             홍기찬
@@ -84,17 +86,18 @@
                         </span>
                     </div>
                 </div>
+                </a>
                 <div class="friend__column">
                     <div class="friend__now-listening">
                         <span>
                             지독하게 -FTISLAND(FT DA)
+                            <i class="fas fa-play"></i>
                         </span>
-                    <i class="fas fa-play"></i>
                     </div>
                 </div>
             </li>
         </ul>
-    </mian>
+    </main>
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav_list-item">

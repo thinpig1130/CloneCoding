@@ -9,6 +9,7 @@
         integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" 
         crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="status-bar">
@@ -45,15 +46,26 @@
     <main class="chats">
         <ul class="chats__list">
             <li class="chats__chat chat">
-                <div class="chat__column">
-                    <img class="chat__avatar g-avatar" src="images/kichan.jpg"/>
-                    <div class="chat__content">
-                        <span class="chat__username">ki-chan</span>
-                        <span class="chat_preview">go with mom!!  </span>
+                <div class="friends__friend friend">
+                    <a href="chat.html">
+                    <div class="friend__column">
+                        <img class="friend__avatar m-avatar" src="images/kichan.jpg"/>
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                Lynn
+                            </span>
+                            <span class="friend_bottom-text">
+                            Going home
+                            </span>
+                        </div>
+                        
                     </div>
-                </div>
-                <div class="chat__column">
-                    <span class="chat__timestamp">Yesteday</span>
+                    </a>
+                    <div class="friend__column">
+                        <span class="chat__timestamp">
+                            March 8
+                        </span>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -67,6 +79,7 @@
             </li>
             <li class="nav_list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
@@ -76,7 +89,7 @@
                 </a>
             </li>
             <li class="nav_list-item">
-                <a href="/more.html" class="nav__list-link">
+                <a href="more.html" class="nav__list-link">
                     <i class="fas fa-ellipsis-h"></i>
                 </a>
             </li>
