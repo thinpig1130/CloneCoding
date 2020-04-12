@@ -1,0 +1,145 @@
+body {
+  width: 100%;
+  height: 1000px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-title {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.g-by {
+  font-size: 14px;
+  color: #e94666;
+}
+
+.g-button {
+  font-size: 16px;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  background-color: #e94666;
+  display: flex;
+  justify-content: center;
+}
+
+.camera,
+.game__main,
+.safari__main,
+.camera__main,
+.camara__pop,
+.game__pop,
+.safari__pop {
+  width: 400px;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camara__pop,
+.game__pop,
+.safari__pop {
+  background-color: #27394a;
+}
+
+.camera__main > img,
+.game__main > img,
+.safari__main > img {
+  width: 140px;
+  height: 140px;
+  border-radius: 30px;
+}
+
+.camera,
+.game,
+.safari {
+  width: 400px;
+  height: 290px;
+  position: relative;
+}
+
+.camera__main {
+  position: absolute;
+  background-color: #009e91;
+  z-index: 1;
+}
+
+.camara__pop {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.camara__pop > .g-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.camara__pop:hover {
+  opacity: 1;
+  transform: translate(10px, 10px);
+}
+
+.game {
+  overflow: hidden;
+  height: 290px;
+}
+
+.game__main {
+  background-color: #f7a4a1;
+  transition: height 0.5s ease-in-out;
+}
+
+.game__pop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  bottom: 0px;
+}
+
+.game__main:hover {
+  height: 200px;
+}
+
+.game__pop > .g-content,
+.safari__pop > .g-content {
+  margin: 10px 20px 30px 20px;
+}
+
+.game__pop > .g-button,
+.safari__pop > .g-button {
+  margin: 40px 20px 20px 20px;
+}
+
+.safari__main {
+  position: absolute;
+  background-color: #d6f0f9;
+  z-index: 2;
+  transition: transform 0.5s ease-in-out;
+}
+
+.safari__main:hover {
+  transform: scale(0.5, 0.5) translateY(-90px);
+}
+
+.safari__pop {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 1;
+}
