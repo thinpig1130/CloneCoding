@@ -1,0 +1,10 @@
+.step{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    background-color: #f7a4a1;
+    border-radius: 30px;
+    margin  : 10px
+}
+
+
